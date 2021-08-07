@@ -13,9 +13,12 @@ export const Container = styled.div<IContainer>`
   background-color: ${({ variation }) => variation === 'normal' ? '#ffb610' : '#fff'};
   border-radius: 4px;
   border-color: ${({ variation }) => variation === 'normal' ? '#ffb610' : '#cfcfcf'};
-  border-width: 4px;
+  border-width: 2px;
   border-style: solid;
-  padding: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 12px;
   text-align: center;
   text-transform: ${({ uppercase }) => uppercase ? 'uppercase' : 'normal'};
+  user-select: none;
 `

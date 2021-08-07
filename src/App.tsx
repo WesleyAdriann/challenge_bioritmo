@@ -4,8 +4,11 @@ import { store } from './store'
 
 import Routes from './pages/Routes'
 
+import { GlobalStyle } from './style/GlobalStyle'
+
 const App = () => (
   <Provider store={store}>
+    <GlobalStyle />
     <Routes />
   </Provider>
 )

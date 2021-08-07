@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Button } from '../../atomic/atoms/Button'
+
 export const Home = () => (
-  <div>Home</div>
+  <div><Button onClick={() => {}} text='Econtrar unidade'/></div>
 )

@@ -5,7 +5,7 @@ import {
   Container
 } from './styles'
 
-interface IButton {
+export interface IButton {
   onClick: () => void
   variation?: types.buttonVariation
   text: string
@@ -13,8 +13,8 @@ interface IButton {
 }
 
 
-export const Button: React.FC<IButton> = ({ text, variation, onClick }) => (
-  <Container variation={variation ?? 'normal'} onClick={onClick}>
+export const Button: React.FC<IButton> = ({ text, variation, onClick, ...props }) => (
+  <Container variation={variation ?? 'normal'} onClick={onClick} {...props}>
     {text}
   </Container>
 )
