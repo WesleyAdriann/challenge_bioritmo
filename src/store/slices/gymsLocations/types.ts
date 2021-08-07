@@ -17,6 +17,6 @@ export interface ILocation {
   schedules: TSchedule[]
 }
 
-export interface ILocationsState {
+export interface IGymsLocationsState {
   locations: ILocation[]
 }

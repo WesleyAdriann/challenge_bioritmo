@@ -1,5 +1,5 @@
 export const apiAddress = {
-  locations: {
+  gyms: {
     baseUrl: 'https://test-frontend-developer.s3.amazonaws.com',
     locations: '/data/locations.json'
   }

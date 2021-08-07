@@ -1,5 +1,5 @@
-import { ILocationsState } from './locations/types'
+import { IGymsLocationsState } from './gymsLocations/types'
 
 export interface IRootReducer {
-  locationsReducer: ILocationsState
+  gymsLocationsReducer: IGymsLocationsState
 }

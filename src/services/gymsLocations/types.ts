@@ -1,6 +1,6 @@
-import { ILocation } from '../../store/slices/locations/types'
+import { ILocation } from '../../store/slices/gymsLocations/types'
 
-export interface getLocationsResponse {
+export interface getGymsLocations {
   locations: ILocation[]
   current_country_id: number
   wp_total: number
