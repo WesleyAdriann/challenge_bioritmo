@@ -12,20 +12,16 @@ export const Normal = Template.bind({})
 
 const argTypes = {
   text: {
-    control: {
-      type: 'text'
-    }
+    control: 'text'
   },
   variation: {
     options: ['normal', 'outlined'],
     control: {
-      type: 'select'
+      type: 'radio'
     }
   },
   uppercase: {
-    control: {
-      type: 'boolean'
-    }
+    control: 'boolean'
   },
   onClick: {
     action: 'onClick'

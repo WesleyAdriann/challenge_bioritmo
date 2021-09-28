@@ -10,9 +10,9 @@ interface IContainer {
 }
 
 export const Container = styled.div<IContainer>`
-  background-color: ${({ variation, theme }) => variation === 'normal' ? theme.colors.yellow : '#fff'};
+  background-color: ${({ variation, theme }) => variation === 'normal' ? theme.colors.yellow : theme.colors.white};
   border-radius: 4px;
-  border-color: ${({ variation }) => variation === 'normal' ? '#ffb610' : '#cfcfcf'};
+  border-color: ${({ variation, theme }) => variation === 'normal' ? theme.colors.yellow : theme.colors['light-grey']};
   border-width: 2px;
   border-style: solid;
   cursor: pointer;
