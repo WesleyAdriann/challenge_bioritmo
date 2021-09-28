@@ -7,31 +7,31 @@ import GothanLight from '../assets/fonts/gotham-light.woff2'
 
 export const GlobalStyle = createGlobalStyle`
   @font-face {
-    font-family: Gothan;
+    font-family: ${(props) => props.theme.fontFamily};
     src: url(${GothanBlack}) format('woff2');
     font-weight: 900;
   }
 
   @font-face {
-    font-family: Gothan;
+    font-family: ${(props) => props.theme.fontFamily};
     src: url(${GothanBold}) format('woff2');
     font-weight: bold;
   }
 
   @font-face {
-    font-family: Gothan;
+    font-family: ${(props) => props.theme.fontFamily};
     src: url(${GothanBook}) format('woff2');
     font-weight: 400;
   }
   @font-face {
-    font-family: Gothan;
+    font-family: ${(props) => props.theme.fontFamily};
     src: url(${GothanLight}) format('woff2');
     font-weight: 300;
   }
 
   * {
     box-sizing: border-box;
-    font-family: Gothan;
+    font-family: ${(props) => props.theme.fontFamily};
     margin: 0;
     padding: 0;
   }

@@ -10,7 +10,7 @@ interface IContainer {
 }
 
 export const Container = styled.div<IContainer>`
-  background-color: ${({ variation }) => variation === 'normal' ? '#ffb610' : '#fff'};
+  background-color: ${({ variation, theme }) => variation === 'normal' ? theme.colors.yellow : '#fff'};
   border-radius: 4px;
   border-color: ${({ variation }) => variation === 'normal' ? '#ffb610' : '#cfcfcf'};
   border-width: 2px;
@@ -21,4 +21,8 @@ export const Container = styled.div<IContainer>`
   text-align: center;
   text-transform: ${({ uppercase }) => uppercase ? 'uppercase' : 'normal'};
   user-select: none;
+
+  &:active {
+    filter: brightness(95%);
+  }
 `

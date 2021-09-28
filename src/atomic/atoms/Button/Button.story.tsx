@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { Meta, Story } from '@storybook/react';
 
 import { Button, IButton } from './index';
@@ -24,20 +22,29 @@ const argTypes = {
       type: 'select'
     }
   },
+  uppercase: {
+    control: {
+      type: 'boolean'
+    }
+  },
   onClick: {
     action: 'onClick'
   }
 }
 
-Normal.args = {
-  text: 'Texto'
+const defaultArgs = {
+  text: 'Texto',
+  uppercase: false,
+}
+
+Normal.args = { ...defaultArgs,
 }
 Normal.argTypes = argTypes
 
 export const Outlined = Template.bind({})
 
 Outlined.args = {
-  text: 'Texto',
+  ...defaultArgs,
   variation: 'outlined'
 }
 Outlined.argTypes = argTypes
