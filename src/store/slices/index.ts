@@ -4,6 +4,6 @@ import gymsLocationsReducer from './gymsLocations'
 
 import { IRootReducer } from './types'
 
-export const rootReducer = combineReducers<IRootReducer>({
+export const RootReducer = combineReducers<IRootReducer>({
   gymsLocationsReducer
 })
