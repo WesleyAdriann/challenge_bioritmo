@@ -3,7 +3,7 @@ export type TTheme = typeof theme
 export const theme = {
   fontFamily: 'Gothan',
   fontColor: '#000',
-  fontSize: 12,
+  fontSize: 14,
 
   colors: {
     'dark-grey': '#333333',

@@ -1,7 +1,8 @@
 import React from 'react'
 
-import { Button } from '../../atomic/atoms/Button'
+import Logo from '../../assets/svg/Logo'
 
 export const Home = () => (
-  <div><Button onClick={() => {}} text='Econtrar unidade'/></div>
+  <div >
+    <Logo /></div>
 )

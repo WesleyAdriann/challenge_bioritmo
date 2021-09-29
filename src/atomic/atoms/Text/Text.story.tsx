@@ -1,6 +1,7 @@
 import { Meta, Story } from '@storybook/react';
 
 import { Text, IText } from './index';
+import * as types from './types'
 
 export default {
   title: 'Atoms/Text',
@@ -21,7 +22,7 @@ const argTypes = {
     }
   },
   weight: {
-    options: [900, 'bold', 400, 300],
+    options: ['900', 'bold', '400', '300'],
     control: {
       type: 'select'
     }
@@ -36,8 +37,8 @@ const argTypes = {
 
 const defaultArgs = {
   children: 'Texto',
-  weight: 400,
-  size: 12,
+  weight: '400' as types.TWeight,
+  size: 14,
   color: '#000'
 }
 
