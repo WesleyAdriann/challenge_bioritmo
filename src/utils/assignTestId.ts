@@ -11,4 +11,4 @@ export const assignTestId = (
 export const mockTestID = (
     componentType: componentType,
     componentId: string
-  ) => assignTestId(componentType, componentId)
+  ) => assignTestId(componentType, componentId)['data-testid']

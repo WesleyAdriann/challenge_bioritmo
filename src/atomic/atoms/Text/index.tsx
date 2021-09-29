@@ -8,7 +8,7 @@ import {
 } from './styles'
 
 export interface IText {
-  align: types.TAlign,
+  align?: types.TAlign
   children: React.ReactNode
   testID?: string
   size?: number

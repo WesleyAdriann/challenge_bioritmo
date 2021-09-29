@@ -5,7 +5,6 @@ import { mockTestID, StorybookProviders as wrapper } from '../../../utils'
 import { Button, IButton } from './index'
 
 describe('Atoms/Button', () => {
-
   const props: IButton = {
     testID: 'Button',
     onClick: jest.fn(),
@@ -25,7 +24,7 @@ describe('Atoms/Button', () => {
     component = renderComponent()
   })
 
-  const el_container = mockTestID('button', props.testID!)['data-testid']
+  const el_container = mockTestID('button', props.testID!)
 
   it(`should render component #${el_container}`, async () => {
     const sut = await component.findByTestId(el_container)
