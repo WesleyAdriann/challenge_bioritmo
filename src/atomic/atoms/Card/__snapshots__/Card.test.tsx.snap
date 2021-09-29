@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atoms/Button should render snapshot 1`] = `
+.c0 {
+  background-color: #F3F3F3;
+  border-radius: 0px;
+  box-shadow: 0px;
+  border: 0px solid #F3F3F3;
+  padding: 0px;
+}
+
+<div
+  class="c0"
+  data-testid="div_Text"
+>
+  Text Test
+</div>
+`;

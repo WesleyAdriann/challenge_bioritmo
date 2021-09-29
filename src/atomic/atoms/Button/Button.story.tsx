@@ -33,8 +33,7 @@ const defaultArgs = {
   uppercase: false,
 }
 
-Normal.args = { ...defaultArgs,
-}
+Normal.args = { ...defaultArgs }
 Normal.argTypes = argTypes
 
 export const Outlined = Template.bind({})
