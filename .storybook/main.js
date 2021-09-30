@@ -1,6 +1,7 @@
 module.exports = {
   "stories": [
-    "../src/atomic/**/**/*.story.@(js|jsx|ts|tsx)"
+    "../src/atomic/**/**/*.story.@(js|jsx|ts|tsx)",
+    "../src/tokens/**/*.story.@(js|jsx|ts|tsx)"
   ],
   "addons": [
     "@storybook/addon-controls",

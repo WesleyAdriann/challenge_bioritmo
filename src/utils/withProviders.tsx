@@ -3,7 +3,7 @@ import React from 'react'
 
 import { ThemeProvider } from 'styled-components'
 
-import { theme } from '../style'
+import { theme } from '../tokens'
 
 export const StorybookProviders: React.FC = ({
   children,

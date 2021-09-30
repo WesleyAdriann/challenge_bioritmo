@@ -1,6 +1,6 @@
 import { Meta, Story } from '@storybook/react';
 
-import { theme } from '../../../style'
+import { theme } from '../../../tokens'
 
 import { Card, ICard } from './index';
 
@@ -33,7 +33,10 @@ const argTypes = {
 const defaultArgs = {
   children: 'Card',
   color: theme.colors['lightest-grey'],
-  shadow: false
+  shadow: false,
+  radius: 8,
+  padding: 8,
+  border: 0
 }
 
 Normal.args = { ...defaultArgs }

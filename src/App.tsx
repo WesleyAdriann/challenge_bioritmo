@@ -5,7 +5,8 @@ import { ThemeProvider } from 'styled-components'
 
 import Routes from './pages/Routes'
 
-import { GlobalStyle, theme } from './style'
+import { GlobalStyle } from './style'
+import { theme } from './tokens'
 
 const App = () => (
   <Provider store={store}>
