@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atoms/Checkbox should render snapshot 1`] = `
+.c0 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #FFB612;
+  border: 3px solid #808080;
+  border-radius: 2px;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 24px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 1px;
+  width: 24px;
+}
+
+.c0:active {
+  -webkit-filter: brightness(105%);
+  filter: brightness(105%);
+}
+
+<div
+  class="c0"
+  data-testid="div_Text"
+  size="24"
+>
+  <svg
+    class=""
+    color="#000"
+    height="24px"
+    size="24"
+    viewBox="0 0 24 24"
+    width="24px"
+  >
+    <path
+      d="M0 0h24v24H0V0z"
+      fill="none"
+    />
+    <path
+      d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"
+      fill="#000"
+    />
+  </svg>
+</div>
+`;

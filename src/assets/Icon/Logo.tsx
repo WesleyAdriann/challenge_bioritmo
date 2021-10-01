@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-const Logo = (props: React.SVGProps<SVGSVGElement>)  => (
+const IconLogo = (props: React.SVGProps<SVGSVGElement>)  => (
   <svg
     id="prefix__Layer_1"
     x={0}
@@ -30,5 +30,4 @@ const Logo = (props: React.SVGProps<SVGSVGElement>)  => (
 );
 
 
-const MemoLogo = React.memo(Logo);
-export default MemoLogo;
+export const Logo = React.memo(IconLogo);

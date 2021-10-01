@@ -2,7 +2,6 @@ import React from 'react'
 
 import { assignTestId } from '../../../utils'
 
-
 import {
   Container
 } from './styles'
