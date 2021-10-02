@@ -6,6 +6,7 @@ exports[`Atoms/Button should render snapshot 1`] = `
   font-weight: 400;
   font-size: 14px;
   text-align: left;
+  text-transform: none;
 }
 
 <p

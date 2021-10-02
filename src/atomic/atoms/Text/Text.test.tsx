@@ -29,6 +29,26 @@ describe('Atoms/Button', () => {
     expect(sut).toBeTruthy()
   })
 
+  it('should render Text with font-size 32', async () => {
+    const size = 32
+    component.rerender(<Text {...props} size={size} />)
+    const sut = await component.findByTestId(el_container)
+    expect(sut).toHaveStyle(`font-size: ${size}px`)
+  })
+
+  it('should render uppercase Text', async () => {
+    component.rerender(<Text {...props} uppercase />)
+    const sut = await component.findByTestId(el_container)
+    expect(sut).toHaveStyle(`text-transform: uppercase`)
+  })
+
+  it('should render Text with font-weight bold', async () => {
+    const weight = 'bold'
+    component.rerender(<Text {...props} weight={weight} />)
+    const sut = await component.findByTestId(el_container)
+    expect(sut).toHaveStyle(`font-weight: ${weight}`)
+  })
+
   it('should render snapshot', () => {
     expect(component.container.firstChild).toMatchSnapshot()
   })

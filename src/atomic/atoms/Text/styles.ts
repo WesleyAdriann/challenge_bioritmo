@@ -9,4 +9,5 @@ export const Component = styled.p<IComponent>`
   font-weight: ${(props) => props.weight ?? '400'};
   font-size: ${({size, theme}) => size ?? theme.fontSize}px;
   text-align: ${(props) => props.align ?? 'left'};
+  text-transform: ${(props) => props.uppercase ? 'uppercase' : 'none' };
 `

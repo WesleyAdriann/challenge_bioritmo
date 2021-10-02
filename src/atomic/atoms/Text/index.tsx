@@ -12,6 +12,7 @@ export interface IText {
   children: React.ReactNode
   testID?: string
   size?: number
+  uppercase?: boolean
   weight?: types.TWeight
 }
 
