@@ -1,5 +1,5 @@
-import React from 'react';
-import { Provider  } from 'react-redux'
+import React from 'react'
+import { Provider } from 'react-redux'
 import { store } from './store'
 import { ThemeProvider } from 'styled-components'
 
@@ -17,5 +17,4 @@ const App = () => (
   </Provider>
 )
 
-export default App;
-
+export default App

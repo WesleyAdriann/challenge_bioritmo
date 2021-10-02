@@ -1,9 +1,10 @@
-import { Meta, Story } from '@storybook/react';
+import React from 'react'
+import { Meta, Story } from '@storybook/react'
 
-import { Radio , IRadio } from './index';
+import { Radio, IRadio } from './index'
 
 export default {
-  title: 'Atoms/Radio',
+  title: 'Atoms/Radio'
 } as Meta
 
 const Template: Story<IRadio> = (args) => <Radio {...args} />
@@ -24,7 +25,7 @@ const argTypes = {
 
 const defaultArgs = {
   active: true,
-  size: 24,
+  size: 24
 }
 
 Normal.args = { ...defaultArgs }

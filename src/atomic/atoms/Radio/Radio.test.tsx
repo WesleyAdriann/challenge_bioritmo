@@ -1,4 +1,5 @@
-import { render, cleanup , fireEvent} from '@testing-library/react'
+import React from 'react'
+import { render, cleanup, fireEvent } from '@testing-library/react'
 
 import { mockTestID, StorybookProviders as wrapper } from '../../../utils'
 
@@ -51,5 +52,4 @@ describe('Atoms/Radio', () => {
   it('should render snapshot', () => {
     expect(component.container.firstChild).toMatchSnapshot()
   })
-
 })

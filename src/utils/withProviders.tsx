@@ -6,7 +6,7 @@ import { ThemeProvider } from 'styled-components'
 import { theme } from '../tokens'
 
 export const StorybookProviders: React.FC = ({
-  children,
+  children
 }) => (
   <ThemeProvider theme={theme}>
     {children}

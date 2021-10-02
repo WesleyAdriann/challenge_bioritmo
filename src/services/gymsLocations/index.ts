@@ -1,6 +1,6 @@
 import axios, { AxiosPromise } from 'axios'
 
-import {apiAddress} from '../apiAddress'
+import { apiAddress } from '../apiAddress'
 
 import * as types from './types'
 

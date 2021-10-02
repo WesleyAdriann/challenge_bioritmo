@@ -23,7 +23,7 @@ export const Container = styled.div<IContainer>`
 `
 
 export const CheckIcon = styled(Check).attrs<ICheckbox>((props) => ({
-  color: props.theme.colors['black'],
+  color: props.theme.colors.black,
   height: `${props.size}px`,
   width: `${props.size}px`
 }))<ICheckbox>``

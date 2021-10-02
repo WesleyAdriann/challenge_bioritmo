@@ -17,9 +17,8 @@ export interface IText {
   weight?: types.TWeight
 }
 
-
 export const Text: React.FC<IText> = ({ testID = 'Text', children, ...props }) => (
-  <Component  {...props} {...assignTestId('text', testID)}>
+  <Component {...props} {...assignTestId('text', testID)}>
     {children}
   </Component>
 )

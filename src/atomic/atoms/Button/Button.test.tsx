@@ -1,4 +1,5 @@
-import { render, fireEvent, cleanup} from '@testing-library/react'
+import React from 'react'
+import { render, fireEvent, cleanup } from '@testing-library/react'
 
 import { mockTestID, StorybookProviders as wrapper } from '../../../utils'
 
@@ -10,7 +11,6 @@ describe('Atoms/Button', () => {
     onClick: jest.fn(),
     text: 'Text Test'
   }
-
 
   const renderComponent = () => render(
     <Button {...props} />, { wrapper }
@@ -45,5 +45,4 @@ describe('Atoms/Button', () => {
   it('should render snapshot', () => {
     expect(component.container.firstChild).toMatchSnapshot()
   })
-
 })

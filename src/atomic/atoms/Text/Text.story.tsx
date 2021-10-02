@@ -1,11 +1,12 @@
-import { Meta, Story } from '@storybook/react';
+import React from 'react'
+import { Meta, Story } from '@storybook/react'
 
-import { Text, IText } from './index';
+import { Text, IText } from './index'
 import * as types from './types'
 
 export default {
-  title: 'Atoms/Text',
-} as Meta;
+  title: 'Atoms/Text'
+} as Meta
 
 const Template: Story<IText> = (args) => <Text {...args} />
 
@@ -16,7 +17,7 @@ const argTypes = {
     control: 'text'
   },
   align: {
-    options: ['left','right', 'center', 'justify', 'initial', 'inherit'],
+    options: ['left', 'right', 'center', 'justify', 'initial', 'inherit'],
     control: {
       type: 'select'
     }

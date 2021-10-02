@@ -1,4 +1,5 @@
-import { Meta, Story } from '@storybook/react';
+import React from 'react'
+import { Meta, Story } from '@storybook/react'
 import styled from 'styled-components'
 
 import { theme } from './theme'
@@ -25,16 +26,15 @@ const Name = styled.pre`
   font-size: 14px;
 `
 
-
 export default {
-  title: 'Tokens/Colors',
-} as Meta;
+  title: 'Tokens/Colors'
+} as Meta
 
 const Template: Story<{ colors: typeof theme.colors }> = (args) =>
   <Container>
     {Object.entries(args.colors)
       .map(([name, color]) =>
-        <Wrapper>
+        <Wrapper key={name}>
           <Square color={color} />
           <Name>{name}</Name>
         </Wrapper>
@@ -53,4 +53,3 @@ const defaultArgs = {
 
 Normal.args = { ...defaultArgs }
 Normal.argTypes = argTypes
-

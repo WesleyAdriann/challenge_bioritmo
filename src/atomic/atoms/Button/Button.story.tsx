@@ -1,10 +1,11 @@
-import { Meta, Story } from '@storybook/react';
+import React from 'react'
+import { Meta, Story } from '@storybook/react'
 
-import { Button, IButton } from './index';
+import { Button, IButton } from './index'
 
 export default {
-  title: 'Atoms/Button',
-} as Meta;
+  title: 'Atoms/Button'
+} as Meta
 
 const Template: Story<IButton> = (args) => <Button {...args} />
 
@@ -30,7 +31,7 @@ const argTypes = {
 
 const defaultArgs = {
   text: 'Texto',
-  uppercase: false,
+  uppercase: false
 }
 
 Normal.args = { ...defaultArgs }

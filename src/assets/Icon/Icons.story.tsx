@@ -1,8 +1,8 @@
-import { Meta, Story } from '@storybook/react';
+import React from 'react'
+import { Meta, Story } from '@storybook/react'
 import styled from 'styled-components'
 
-import { Logo, Check } from './index';
-
+import { Logo, Check } from './index'
 
 const Container = styled.div`
   display: flex;
@@ -24,8 +24,8 @@ const Name = styled.pre`
 `
 
 export default {
-  title: 'Utilites/Icon',
-} as Meta;
+  title: 'Utilites/Icon'
+} as Meta
 
 const Template: Story = () => <Container>
   <Wrapper>
@@ -47,4 +47,3 @@ const defaultArgs = {}
 
 Normal.args = { ...defaultArgs }
 Normal.argTypes = argTypes
-

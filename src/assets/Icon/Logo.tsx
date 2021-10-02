@@ -1,6 +1,6 @@
-import * as React from 'react';
+import * as React from 'react'
 
-const IconLogo = (props: React.SVGProps<SVGSVGElement>)  => (
+const IconLogo = (props: React.SVGProps<SVGSVGElement>) => (
   <svg
     id="prefix__Layer_1"
     x={0}
@@ -12,7 +12,7 @@ const IconLogo = (props: React.SVGProps<SVGSVGElement>)  => (
     {...props}
   >
     <style>
-      {".prefix__st0{fill-rule:evenodd;clip-rule:evenodd;fill:#fcb823}"}
+      {'.prefix__st0{fill-rule:evenodd;clip-rule:evenodd;fill:#fcb823}'}
     </style>
     <path
       className="prefix__st0"
@@ -27,7 +27,6 @@ const IconLogo = (props: React.SVGProps<SVGSVGElement>)  => (
       fill="#fff"
     />
   </svg>
-);
+)
 
-
-export const Logo = React.memo(IconLogo);
+export const Logo = React.memo(IconLogo)

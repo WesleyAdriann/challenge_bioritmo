@@ -1,12 +1,13 @@
-import { Meta, Story } from '@storybook/react';
+import React from 'react'
+import { Meta, Story } from '@storybook/react'
 
 import { theme } from '../../../tokens'
 
-import { Card, ICard } from './index';
+import { Card, ICard } from './index'
 
 export default {
-  title: 'Atoms/Card',
-} as Meta;
+  title: 'Atoms/Card'
+} as Meta
 
 const Template: Story<ICard> = (args) => <Card {...args} />
 
@@ -41,4 +42,3 @@ const defaultArgs = {
 
 Normal.args = { ...defaultArgs }
 Normal.argTypes = argTypes
-

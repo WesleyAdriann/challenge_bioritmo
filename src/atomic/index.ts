@@ -5,6 +5,5 @@ export * from './atoms/Checkbox'
 export * from './atoms/Radio'
 export * from './atoms/Text'
 
-
 // templates
 export * from './templates/HomeTemplate'

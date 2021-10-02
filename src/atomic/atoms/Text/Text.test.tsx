@@ -1,4 +1,5 @@
-import { render, cleanup} from '@testing-library/react'
+import React from 'react'
+import { render, cleanup } from '@testing-library/react'
 
 import { mockTestID, StorybookProviders as wrapper } from '../../../utils'
 
@@ -39,7 +40,7 @@ describe('Atoms/Button', () => {
   it('should render uppercase Text', async () => {
     component.rerender(<Text {...props} uppercase />)
     const sut = await component.findByTestId(el_container)
-    expect(sut).toHaveStyle(`text-transform: uppercase`)
+    expect(sut).toHaveStyle('text-transform: uppercase')
   })
 
   it('should render Text with font-weight bold', async () => {
@@ -52,5 +53,4 @@ describe('Atoms/Button', () => {
   it('should render snapshot', () => {
     expect(component.container.firstChild).toMatchSnapshot()
   })
-
 })

@@ -1,6 +1,5 @@
 import styled from 'styled-components'
 
-
 import { IRadio } from './index'
 
 type IContainer = Omit<IRadio, 'onClick' | 'testId'>
@@ -25,6 +24,6 @@ export const Container = styled.div<IContainer>`
 export const Dot = styled.div<IContainer>`
   background-color: ${(props) => props.theme.colors.black};
   border-radius: 50%;
-  height: ${({ size = 24}) => size * 0.5}px;
+  height: ${({ size = 24 }) => size * 0.5}px;
   width: ${({ size = 24 }) => size * 0.5}px;
 `

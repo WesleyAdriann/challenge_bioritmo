@@ -11,7 +11,7 @@ export interface IHomeTemplate {}
 export const HomeTemplate: React.FC = () => {
   const theme = useTheme()
 
-  return(<Container>
+  return (<Container>
   <Header>
     <Logo />
   </Header>
@@ -24,14 +24,12 @@ export const HomeTemplate: React.FC = () => {
     </Text>
   </TitleWrapper>
 
-
 <Footer>
-  <Logo  height='4rem' width='8rem' />
+  <Logo height='4rem' width='8rem' />
   <Text color={theme.colors.white}>
   Todos os direitos reservados - 2020
   </Text>
 </Footer>
-
 
 </Container>)
 }

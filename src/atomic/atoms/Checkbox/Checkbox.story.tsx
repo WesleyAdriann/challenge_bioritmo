@@ -1,9 +1,10 @@
-import { Meta, Story } from '@storybook/react';
+import React from 'react'
+import { Meta, Story } from '@storybook/react'
 
-import { Checkbox , ICheckbox } from './index';
+import { Checkbox, ICheckbox } from './index'
 
 export default {
-  title: 'Atoms/Checkbox',
+  title: 'Atoms/Checkbox'
 } as Meta
 
 const Template: Story<ICheckbox> = (args) => <Checkbox {...args} />
@@ -24,7 +25,7 @@ const argTypes = {
 
 const defaultArgs = {
   active: true,
-  size: 24,
+  size: 24
 }
 
 Normal.args = { ...defaultArgs }
