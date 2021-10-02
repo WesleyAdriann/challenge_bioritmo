@@ -10,6 +10,7 @@ import {
 export interface IText {
   align?: types.TAlign
   children: React.ReactNode
+  color?: string
   testID?: string
   size?: number
   uppercase?: boolean

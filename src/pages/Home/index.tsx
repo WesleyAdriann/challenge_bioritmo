@@ -1,8 +1,7 @@
 import React from 'react'
 
-import {Logo} from '../../assets/Icon/Logo'
+import { HomeTemplate } from '../../atomic'
 
 export const Home = () => (
-  <div >
-    <Logo /></div>
+  <HomeTemplate />
 )
