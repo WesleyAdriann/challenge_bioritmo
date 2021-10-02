@@ -2,17 +2,17 @@ import { render, cleanup , fireEvent} from '@testing-library/react'
 
 import { mockTestID, StorybookProviders as wrapper } from '../../../utils'
 
-import { Checkbox, ICheckbox } from './index'
+import { Radio, IRadio } from './index'
 
-describe('Atoms/Checkbox', () => {
-  const props: ICheckbox = {
-    testID: 'Checkbox',
+describe('Atoms/Radio', () => {
+  const props: IRadio = {
+    testID: 'Text',
     active: true,
     onClick: jest.fn()
   }
 
   const renderComponent = () => render(
-    <Checkbox {...props} />, { wrapper }
+    <Radio {...props} />, { wrapper }
   )
 
   let component = renderComponent()
@@ -30,19 +30,19 @@ describe('Atoms/Checkbox', () => {
     expect(sut).toBeTruthy()
   })
 
-  it('should render check icon in Checkbox with active true', async () => {
-    component.rerender(<Checkbox {...props} />)
+  it('should render dot icon in Radio with active true', async () => {
+    component.rerender(<Radio {...props} />)
     const sut = await component.findByTestId(el_container)
     expect(sut.children.length).toBeTruthy()
   })
 
-  it('should not render icon in Checkbox with active false', async () => {
-    component.rerender(<Checkbox {...props} active={false} />)
+  it('should not render dot icon in Radio with active false', async () => {
+    component.rerender(<Radio {...props} active={false} />)
     const sut = await component.findByTestId(el_container)
     expect(sut.children.length).toBeFalsy()
   })
 
-  it('should call onClick prop on click in checkbox', async () => {
+  it('should call onClick prop on click in Radio', async () => {
     const sut = await component.findByTestId(el_container)
     fireEvent.click(sut)
     expect(props.onClick).toBeCalled()

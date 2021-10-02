@@ -11,7 +11,7 @@ exports[`Atoms/Button should render snapshot 1`] = `
 
 <div
   class="c0"
-  data-testid="div_Text"
+  data-testid="div_Card"
 >
   Text Test
 </div>

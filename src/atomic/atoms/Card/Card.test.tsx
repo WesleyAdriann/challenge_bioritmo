@@ -6,7 +6,7 @@ import { Card, ICard } from './index'
 
 describe('Atoms/Button', () => {
   const props: ICard = {
-    testID: 'Text',
+    testID: 'Card',
     children: 'Text Test'
   }
 

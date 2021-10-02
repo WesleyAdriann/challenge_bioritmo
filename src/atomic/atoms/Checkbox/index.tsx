@@ -16,6 +16,6 @@ export interface ICheckbox {
 
 export const Checkbox: React.FC<ICheckbox> = ({ testID = 'Checkbox', active, size = 24, onClick  = () => {}, ...props }) => (
   <Container active={!!active} size={size} {...props} {...assignTestId('div', testID)} onClick={onClick}>
-    {active && <CheckIcon active={!!active} size={size} {...props}/> }
+    {active && <CheckIcon size={size} {...props}/> }
   </Container>
 )
