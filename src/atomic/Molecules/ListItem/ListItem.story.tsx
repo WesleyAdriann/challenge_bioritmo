@@ -20,6 +20,9 @@ const argTypes = {
   },
   rightText: {
     control: 'text'
+  },
+  onClick: {
+    action: 'onClick'
   }
 }
 

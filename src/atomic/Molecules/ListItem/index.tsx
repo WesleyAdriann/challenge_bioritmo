@@ -36,12 +36,14 @@ export const ListItem: React.FC<IListItem> = ({
     {...assignTestId('div', testID)}
   >
     <TextWrapper>
-      {withRadio && <Radio onClick={onClick} {...radioProps} />}
-      <Text {...textProps} selectable={false}>
+      {withRadio && (
+        <Radio {...radioProps} onClick={onClick} testID={`${testID}_radio`} />
+      )}
+      <Text {...textProps} selectable={false} testID={`${testID}_text`}>
         {text}
       </Text>
     </TextWrapper>
-    <Text {...textProps} selectable={false}>
+    <Text {...textProps} selectable={false} testID={`${testID}_right_text`}>
       {rightText}
     </Text>
   </Container>

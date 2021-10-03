@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Molecules/ListItem should render snapshot 1`] = `
+.c2 {
+  color: #000;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: left;
+  text-transform: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #F3F3F3;
+  padding: 8px 0;
+  cursor: initial;
+}
+
+.c1 {
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 8px;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+<div
+  class="c0"
+  data-testid="div_ListItem"
+>
+  <div
+    class="c1"
+  >
+    <p
+      class="c2"
+      data-testid="text_ListItem_text"
+    >
+      Text Test
+    </p>
+  </div>
+  <p
+    class="c2"
+    data-testid="text_ListItem_right_text"
+  />
+</div>
+`;

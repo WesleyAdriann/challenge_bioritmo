@@ -8,9 +8,13 @@ export const Container = styled.div<IContainer>`
   padding: 8px 0;
   cursor: ${(props) => (props.isClickable ? 'cursor' : 'initial')};
 
-  &:active {
-    filter: brightness(105%);
-  }
+  ${(props) =>
+    props.isClickable
+      ? `
+    &:active {
+      filter: brightness(105%);
+    }`
+      : ''}
 `
 
 export const TextWrapper = styled.div`
