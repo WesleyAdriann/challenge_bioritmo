@@ -18,10 +18,15 @@ export interface IText {
 
 export const Text: React.FC<IText> = ({
   testID = 'Text',
+  selectable = true,
   children,
   ...props
 }) => (
-  <Component {...props} {...assignTestId('text', testID)}>
+  <Component
+    selectable={selectable}
+    {...props}
+    {...assignTestId('text', testID)}
+  >
     {children}
   </Component>
 )

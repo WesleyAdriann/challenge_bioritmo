@@ -21,7 +21,10 @@ export const Radio: React.FC<IRadio> = ({
   <Container
     active={!!active}
     size={size}
-    onClick={onClick}
+    onClick={(event) => {
+      event.stopPropagation()
+      onClick()
+    }}
     {...props}
     {...assignTestId('div', testID)}
   >

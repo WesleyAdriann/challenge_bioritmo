@@ -23,7 +23,10 @@ export const Checkbox: React.FC<ICheckbox> = ({
     size={size}
     {...props}
     {...assignTestId('div', testID)}
-    onClick={onClick}
+    onClick={(event) => {
+      event.stopPropagation()
+      onClick()
+    }}
   >
     {active && <CheckIcon size={size} {...props} />}
   </Container>

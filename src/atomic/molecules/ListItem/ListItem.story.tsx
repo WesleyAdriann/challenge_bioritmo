@@ -21,6 +21,9 @@ const argTypes = {
   rightText: {
     control: 'text'
   },
+  active: {
+    control: 'boolean'
+  },
   onClick: {
     action: 'onClick'
   }
@@ -29,8 +32,7 @@ const argTypes = {
 const defaultArgs: IListItem = {
   text: 'Manhã',
   radioProps: {
-    size: 20,
-    active: true
+    size: 20
   }
 }
 
