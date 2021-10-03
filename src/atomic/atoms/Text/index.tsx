@@ -27,6 +27,7 @@ export const Text: React.FC<IText> = ({
   <Component
     selectable={selectable}
     newLine={newLine}
+    as={newLine ? 'p' : 'span'}
     {...props}
     {...assignTestId('text', testID)}
   >

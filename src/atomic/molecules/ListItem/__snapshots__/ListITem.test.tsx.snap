@@ -11,6 +11,7 @@ exports[`Molecules/ListItem should render snapshot 1`] = `
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  display: block;
 }
 
 .c0 {

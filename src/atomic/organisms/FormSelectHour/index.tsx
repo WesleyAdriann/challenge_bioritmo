@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react'
+import React from 'react'
 import { useTheme } from 'styled-components'
 import { useForm, Controller } from 'react-hook-form'
 
@@ -21,6 +21,7 @@ export interface IFormSelectHourInputs {
 }
 
 export interface IFormSelectHour {
+  testID?: string
   onSubmit: (form: IFormSelectHourInputs) => void
   quantity: number
 }
@@ -55,6 +56,7 @@ const hours = {
 }
 
 export const FormSelectHour: React.FC<IFormSelectHour> = ({
+  testID = 'FormSelectHour',
   onSubmit = () => {},
   quantity = 0,
   ...props
@@ -67,7 +69,14 @@ export const FormSelectHour: React.FC<IFormSelectHour> = ({
   const onSubmitPress = handleSubmit(onSubmit)
 
   return (
-    <Card color={theme.colors.white} border={4} radius={8} padding={16}>
+    <Card
+      color={theme.colors.white}
+      border={4}
+      radius={8}
+      padding={16}
+      testID={testID}
+      {...props}
+    >
       <HourTitleWrapper>
         <IconHour />
         <Text>Horário</Text>

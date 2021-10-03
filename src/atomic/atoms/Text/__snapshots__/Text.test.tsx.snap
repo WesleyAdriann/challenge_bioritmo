@@ -11,6 +11,7 @@ exports[`Atoms/Button should render snapshot 1`] = `
   -moz-user-select: initial;
   -ms-user-select: initial;
   user-select: initial;
+  display: block;
 }
 
 <p
