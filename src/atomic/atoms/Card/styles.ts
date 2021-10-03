@@ -9,7 +9,7 @@ export const Container = styled.div<IContainer>`
     color ?? theme.colors['lightest-grey']};
   border-radius: ${(props) => props.radius ?? 0}px;
   box-shadow: ${(props) =>
-    props.shadow ? '0px 0px 10px 1px rgba(0,0,0,0.1)' : '0px'};
+    props.shadow ? '0px 0px 6px 1px rgba(0,0,0,0.2)' : '0px'};
   border: ${({ border, theme }) =>
     `${border ?? 0}px solid ${theme.colors['lightest-grey']}`};
   padding: ${(props) => props.padding ?? 0}px;

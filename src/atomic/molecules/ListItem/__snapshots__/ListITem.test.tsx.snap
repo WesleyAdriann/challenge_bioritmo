@@ -12,6 +12,7 @@ exports[`Molecules/ListItem should render snapshot 1`] = `
   -ms-user-select: none;
   user-select: none;
   display: block;
+  line-height: normal;
 }
 
 .c0 {

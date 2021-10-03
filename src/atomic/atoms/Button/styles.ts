@@ -1,11 +1,8 @@
 import styled from 'styled-components'
 
-import { buttonVariation } from './types'
+import { IButton } from './index'
 
-interface IContainer {
-  variation: buttonVariation
-  uppercase?: boolean
-}
+type IContainer = Omit<IButton, 'onClick' | 'text'>
 
 export const Container = styled.div<IContainer>`
   background-color: ${({ variation, theme }) =>
@@ -22,6 +19,7 @@ export const Container = styled.div<IContainer>`
   text-transform: ${({ uppercase }) => (uppercase ? 'uppercase' : 'normal')};
   user-select: none;
   word-wrap: break-word;
+  flex: 1;
 
   &:active {
     filter: brightness(95%);

@@ -17,10 +17,13 @@ const argTypes = {
   },
   onSubmit: {
     action: 'onSubmit'
+  },
+  onClear: {
+    action: 'onClear'
   }
 }
 
-const defaultArgs: Omit<IFormSelectHour, 'onSubmit'> = {
+const defaultArgs: Omit<IFormSelectHour, 'onSubmit' | 'onClear'> = {
   quantity: 0
 }
 

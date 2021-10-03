@@ -19,7 +19,9 @@ const argTypes = {
   }
 }
 
-const defaultArgs: Omit<IHomeTemplate, 'form'> = {}
+const defaultArgs: Omit<IHomeTemplate, 'form'> = {
+  isSearch: false
+}
 
 Normal.args = { ...defaultArgs }
 Normal.argTypes = argTypes

@@ -6,7 +6,7 @@ import maskRecommended from '../../../assets/images/mask/recommended-mask.png'
 
 import { ImageWithLegend, IImageWithLegend } from './index'
 
-describe('Organisms/FormSelectHour', () => {
+describe('Organisms/ImageWithLegend', () => {
   const props: IImageWithLegend = {
     testID: 'ImageWithLegend',
     legend: 'Legend test',

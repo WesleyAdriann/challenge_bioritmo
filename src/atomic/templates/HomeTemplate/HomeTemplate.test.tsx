@@ -3,18 +3,20 @@ import { render, cleanup } from '@testing-library/react'
 
 import { mockTestID, StorybookProviders as wrapper } from '../../../utils'
 
-import { FormSelectHour, IFormSelectHour } from './index'
+import { HomeTemplate, IHomeTemplate } from './index'
 
-describe('Organisms/FormSelectHour', () => {
-  const props: IFormSelectHour = {
-    testID: 'FormSelectHour',
-    onSubmit: jest.fn(),
-    onClear: jest.fn(),
-    quantity: 0
+describe('Templates/HomeTemplate', () => {
+  const props: IHomeTemplate = {
+    testID: 'IHomeTemplate',
+    form: {
+      onClear: jest.fn(),
+      onSubmit: jest.fn()
+    },
+    isSearch: false,
+    locations: []
   }
 
-  const renderComponent = () =>
-    render(<FormSelectHour {...props} />, { wrapper })
+  const renderComponent = () => render(<HomeTemplate {...props} />, { wrapper })
 
   let component = renderComponent()
 

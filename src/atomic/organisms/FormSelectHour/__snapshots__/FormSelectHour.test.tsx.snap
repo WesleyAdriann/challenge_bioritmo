@@ -12,6 +12,7 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
   -ms-user-select: initial;
   user-select: initial;
   display: block;
+  line-height: normal;
 }
 
 .c6 {
@@ -25,6 +26,7 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
   -ms-user-select: none;
   user-select: none;
   display: block;
+  line-height: normal;
 }
 
 .c13 {
@@ -38,6 +40,7 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
   -ms-user-select: initial;
   user-select: initial;
   display: block;
+  line-height: normal;
 }
 
 .c14 {
@@ -51,6 +54,7 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
   -ms-user-select: initial;
   user-select: initial;
   display: inline;
+  line-height: normal;
 }
 
 .c0 {
@@ -77,6 +81,9 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
   -ms-user-select: none;
   user-select: none;
   word-wrap: break-word;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .c16:active {
@@ -100,6 +107,9 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
   -ms-user-select: none;
   user-select: none;
   word-wrap: break-word;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .c17:active {
@@ -289,7 +299,33 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
   -ms-flex-direction: column;
   flex-direction: column;
   gap: 22px;
+  margin: auto;
   margin-top: 16px;
+  max-width: 770px;
+}
+
+@media (min-width:700px) {
+  .c10 {
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width:700px) {
+  .c15 {
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+  }
 }
 
 <div

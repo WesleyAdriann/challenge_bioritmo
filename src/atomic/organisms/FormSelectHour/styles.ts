@@ -27,11 +27,23 @@ export const ClosedUnitsAndResultsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 16px;
+
+  @media (min-width: 700px) {
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 `
 
 export const ButtonsWrapper = styled.div`
   display: flex;
   flex-direction: column;
   gap: 22px;
+  margin: auto;
   margin-top: 16px;
+  max-width: 770px;
+
+  @media (min-width: 700px) {
+    flex-direction: row;
+  }
 `

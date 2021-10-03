@@ -14,24 +14,21 @@ import {
   ClosedUnitsAndResultsWrapper,
   ButtonsWrapper
 } from './styles'
-
-export interface IFormSelectHourInputs {
-  hour?: [Date, Date]
-  showClosed: boolean
-}
-
 export interface IFormSelectHour {
   testID?: string
   onSubmit: (form: IFormSelectHourInputs) => void
+  onClear: () => void
   quantity: number
 }
 
-const defaultValues: IFormSelectHourInputs = {
-  hour: undefined,
-  showClosed: false
-}
-
 const hours = {
+  nothing: (() => {
+    const start = new Date(0)
+    const end = new Date(0)
+    start.setHours(0)
+    end.setHours(24)
+    return [start, end]
+  })(),
   morning: (() => {
     const start = new Date(0)
     const end = new Date(0)
@@ -43,6 +40,7 @@ const hours = {
     const start = new Date(0)
     const end = new Date(0)
     start.setHours(12)
+    start.setMinutes(1)
     end.setHours(18)
     return [start, end]
   })(),
@@ -50,14 +48,26 @@ const hours = {
     const start = new Date(0)
     const end = new Date(0)
     start.setHours(18)
+    start.setMinutes(1)
     end.setHours(23)
     return [start, end]
   })()
 }
 
+export interface IFormSelectHourInputs {
+  hour: Date[]
+  showClosed: boolean
+}
+
+const defaultValues: IFormSelectHourInputs = {
+  hour: hours.nothing,
+  showClosed: false
+}
+
 export const FormSelectHour: React.FC<IFormSelectHour> = ({
   testID = 'FormSelectHour',
   onSubmit = () => {},
+  onClear = () => {},
   quantity = 0,
   ...props
 }) => {
@@ -142,7 +152,10 @@ export const FormSelectHour: React.FC<IFormSelectHour> = ({
         <Button text='Encontrar unidade' onClick={onSubmitPress} uppercase />
         <Button
           text='Limpar'
-          onClick={() => reset(defaultValues)}
+          onClick={() => {
+            reset(defaultValues)
+            onClear()
+          }}
           variation='outlined'
           uppercase
         />
