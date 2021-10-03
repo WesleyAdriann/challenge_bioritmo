@@ -12,9 +12,7 @@ describe('Atoms/Button', () => {
     text: 'Text Test'
   }
 
-  const renderComponent = () => render(
-    <Button {...props} />, { wrapper }
-  )
+  const renderComponent = () => render(<Button {...props} />, { wrapper })
 
   let component = renderComponent()
 

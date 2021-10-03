@@ -2,9 +2,7 @@ import React from 'react'
 
 import { assignTestId } from '../../../utils'
 
-import {
-  Container
-} from './styles'
+import { Container } from './styles'
 
 export interface ICard {
   testID?: string
@@ -16,7 +14,11 @@ export interface ICard {
   shadow?: boolean
 }
 
-export const Card: React.FC<ICard> = ({ testID = 'Card', children, ...props }) => (
+export const Card: React.FC<ICard> = ({
+  testID = 'Card',
+  children,
+  ...props
+}) => (
   <Container {...props} {...assignTestId('div', testID)}>
     {children}
   </Container>

@@ -11,8 +11,8 @@ import { Home } from './pages/Home'
 const App = () => (
   <Provider store={store}>
     <ThemeProvider theme={theme}>
-    <GlobalStyle />
-    <Home />
+      <GlobalStyle />
+      <Home />
     </ThemeProvider>
   </Provider>
 )

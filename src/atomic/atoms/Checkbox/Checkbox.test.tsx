@@ -12,9 +12,7 @@ describe('Atoms/Checkbox', () => {
     onClick: jest.fn()
   }
 
-  const renderComponent = () => render(
-    <Checkbox {...props} />, { wrapper }
-  )
+  const renderComponent = () => render(<Checkbox {...props} />, { wrapper })
 
   let component = renderComponent()
 

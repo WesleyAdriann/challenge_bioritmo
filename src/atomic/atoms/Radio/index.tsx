@@ -18,7 +18,13 @@ export const Radio: React.FC<IRadio> = ({
   onClick = () => {},
   ...props
 }) => (
-  <Container active={!!active} size={size} onClick={onClick} {...props} {...assignTestId('div', testID)}>
-    {active && <Dot size={size} {...props}/> }
+  <Container
+    active={!!active}
+    size={size}
+    onClick={onClick}
+    {...props}
+    {...assignTestId('div', testID)}
+  >
+    {active && <Dot size={size} {...props} />}
   </Container>
 )

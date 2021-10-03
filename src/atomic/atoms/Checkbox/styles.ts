@@ -7,7 +7,8 @@ type IContainer = Omit<ICheckbox, 'testID'>
 
 export const Container = styled.div<IContainer>`
   align-items: center;
-  background-color: ${({ active, theme }) => active ? theme.colors.yellow : 'transparent'};
+  background-color: ${({ active, theme }) =>
+    active ? theme.colors.yellow : 'transparent'};
   border: ${(props) => `3px solid ${props.theme.colors['light-grey']}`};
   border-radius: 2px;
   cursor: pointer;

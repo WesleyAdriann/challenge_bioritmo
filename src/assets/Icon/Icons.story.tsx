@@ -27,17 +27,18 @@ export default {
   title: 'Utilites/Icon'
 } as Meta
 
-const Template: Story = () => <Container>
-  <Wrapper>
-    <Logo/>
-    <Name>Logo</Name>
-  </Wrapper>
-  <Wrapper>
-    <Check/>
-    <Name>Check</Name>
-  </Wrapper>
-
-</Container>
+const Template: Story = () => (
+  <Container>
+    <Wrapper>
+      <Logo />
+      <Name>Logo</Name>
+    </Wrapper>
+    <Wrapper>
+      <Check />
+      <Name>Check</Name>
+    </Wrapper>
+  </Container>
+)
 
 export const Normal = Template.bind({})
 

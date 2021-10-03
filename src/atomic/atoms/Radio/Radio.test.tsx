@@ -12,9 +12,7 @@ describe('Atoms/Radio', () => {
     onClick: jest.fn()
   }
 
-  const renderComponent = () => render(
-    <Radio {...props} />, { wrapper }
-  )
+  const renderComponent = () => render(<Radio {...props} />, { wrapper })
 
   let component = renderComponent()
 

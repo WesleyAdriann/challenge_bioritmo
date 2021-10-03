@@ -11,11 +11,9 @@ const Template: Story<IHomeTemplate> = (args) => <HomeTemplate {...args} />
 
 export const Normal = Template.bind({})
 
-const argTypes = {
-}
+const argTypes = {}
 
-const defaultArgs = {
-}
+const defaultArgs = {}
 
 Normal.args = { ...defaultArgs }
 Normal.argTypes = argTypes

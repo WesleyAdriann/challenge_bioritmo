@@ -3,9 +3,7 @@ import React from 'react'
 import { assignTestId } from '../../../utils'
 
 import * as types from './types'
-import {
-  Component
-} from './styles'
+import { Component } from './styles'
 
 export interface IText {
   align?: types.TAlign
@@ -17,7 +15,11 @@ export interface IText {
   weight?: types.TWeight
 }
 
-export const Text: React.FC<IText> = ({ testID = 'Text', children, ...props }) => (
+export const Text: React.FC<IText> = ({
+  testID = 'Text',
+  children,
+  ...props
+}) => (
   <Component {...props} {...assignTestId('text', testID)}>
     {children}
   </Component>

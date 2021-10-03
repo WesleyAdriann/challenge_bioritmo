@@ -11,9 +11,7 @@ describe('Atoms/Button', () => {
     children: 'Text Test'
   }
 
-  const renderComponent = () => render(
-    <Card {...props} />, { wrapper }
-  )
+  const renderComponent = () => render(<Card {...props} />, { wrapper })
 
   let component = renderComponent()
 

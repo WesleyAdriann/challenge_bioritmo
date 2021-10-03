@@ -30,22 +30,20 @@ export default {
   title: 'Tokens/Colors'
 } as Meta
 
-const Template: Story<{ colors: typeof theme.colors }> = (args) =>
+const Template: Story<{ colors: typeof theme.colors }> = (args) => (
   <Container>
-    {Object.entries(args.colors)
-      .map(([name, color]) =>
-        <Wrapper key={name}>
-          <Square color={color} />
-          <Name>{name}</Name>
-        </Wrapper>
-      )
-    }
+    {Object.entries(args.colors).map(([name, color]) => (
+      <Wrapper key={name}>
+        <Square color={color} />
+        <Name>{name}</Name>
+      </Wrapper>
+    ))}
   </Container>
+)
 
 export const Normal = Template.bind({})
 
-const argTypes = {
-}
+const argTypes = {}
 
 const defaultArgs = {
   colors: theme.colors

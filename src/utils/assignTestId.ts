@@ -7,7 +7,5 @@ export const assignTestId = (
   'data-testid': `${componentType}_${componentId}`
 })
 
-export const mockTestID = (
-  componentType: componentType,
-  componentId: string
-) => assignTestId(componentType, componentId)['data-testid']
+export const mockTestID = (componentType: componentType, componentId: string) =>
+  assignTestId(componentType, componentId)['data-testid']

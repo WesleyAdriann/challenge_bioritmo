@@ -13,7 +13,7 @@ export interface ILocation {
   mask: TMaskTowel
   towel: TMaskTowel
   fountain: 'partial' | 'not_allowed'
-  locker_room: 'allowed' | 'closed' | 'partial',
+  locker_room: 'allowed' | 'closed' | 'partial'
   schedules: TSchedule[]
 }
 

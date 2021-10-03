@@ -6,7 +6,8 @@ type IContainer = Omit<IRadio, 'onClick' | 'testId'>
 
 export const Container = styled.div<IContainer>`
   align-items: center;
-  background-color: ${({ active, theme }) => active ? theme.colors.yellow : 'transparent'};
+  background-color: ${({ active, theme }) =>
+    active ? theme.colors.yellow : 'transparent'};
   border: ${(props) => `3px solid ${props.theme.colors['light-grey']}`};
   border-radius: 50%;
   cursor: pointer;
