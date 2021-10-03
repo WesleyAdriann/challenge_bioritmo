@@ -6,9 +6,13 @@ type IContainer = Omit<IRadio, 'onClick' | 'testId'>
 
 export const Container = styled.div<IContainer>`
   align-items: center;
-  background-color: ${({ active, theme }) =>
-    active ? theme.colors.yellow : 'transparent'};
-  border: ${(props) => `3px solid ${props.theme.colors['light-grey']}`};
+  background-color: transparent;
+  border: ${(props) =>
+    `3px solid ${
+      props.active
+        ? props.theme.colors.yellow
+        : props.theme.colors['light-grey']
+    }`};
   border-radius: 50%;
   cursor: pointer;
   display: flex;
@@ -23,7 +27,7 @@ export const Container = styled.div<IContainer>`
 `
 
 export const Dot = styled.div<IContainer>`
-  background-color: ${(props) => props.theme.colors.black};
+  background-color: ${(props) => props.theme.colors.yellow};
   border-radius: 50%;
   height: ${({ size = 24 }) => size * 0.5}px;
   width: ${({ size = 24 }) => size * 0.5}px;

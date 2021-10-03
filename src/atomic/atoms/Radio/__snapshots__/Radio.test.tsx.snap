@@ -6,8 +6,8 @@ exports[`Atoms/Radio should render snapshot 1`] = `
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #FFB612;
-  border: 3px solid #808080;
+  background-color: transparent;
+  border: 3px solid #FFB612;
   border-radius: 50%;
   cursor: pointer;
   display: -webkit-box;
@@ -29,7 +29,7 @@ exports[`Atoms/Radio should render snapshot 1`] = `
 }
 
 .c1 {
-  background-color: #000;
+  background-color: #FFB612;
   border-radius: 50%;
   height: 12px;
   width: 12px;

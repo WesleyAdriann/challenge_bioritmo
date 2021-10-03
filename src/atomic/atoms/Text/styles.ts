@@ -10,4 +10,5 @@ export const Component = styled.p<IComponent>`
   font-size: ${({ size, theme }) => size ?? theme.fontSize}px;
   text-align: ${(props) => props.align ?? 'left'};
   text-transform: ${(props) => (props.uppercase ? 'uppercase' : 'none')};
+  user-select: ${(props) => (props.selectable ? 'initial' : 'none')};
 `

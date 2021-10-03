@@ -9,13 +9,17 @@ export const Container = styled.div<IContainer>`
   align-items: center;
   background-color: ${({ active, theme }) =>
     active ? theme.colors.yellow : 'transparent'};
-  border: ${(props) => `3px solid ${props.theme.colors['light-grey']}`};
+  border: ${(props) =>
+    `3px solid ${
+      props.active
+        ? props.theme.colors.yellow
+        : props.theme.colors['light-grey']
+    }`};
   border-radius: 2px;
   cursor: pointer;
   display: flex;
   height: ${(props) => props.size}px;
   justify-content: center;
-  padding: 1px;
   width: ${(props) => props.size}px;
 
   &:active {

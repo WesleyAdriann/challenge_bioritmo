@@ -33,6 +33,9 @@ const argTypes = {
   },
   color: {
     control: 'color'
+  },
+  selectable: {
+    control: 'boolean'
   }
 }
 
@@ -40,7 +43,8 @@ const defaultArgs = {
   children: 'Texto',
   weight: '400' as types.TWeight,
   size: 14,
-  color: '#000'
+  color: '#000',
+  selectable: true
 }
 
 Normal.args = { ...defaultArgs }

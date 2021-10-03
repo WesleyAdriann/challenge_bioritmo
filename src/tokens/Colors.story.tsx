@@ -23,6 +23,7 @@ const Square = styled.div<{ color: string }>`
 `
 
 const Name = styled.pre`
+  text-align: center;
   font-size: 14px;
 `
 
@@ -35,7 +36,11 @@ const Template: Story<{ colors: typeof theme.colors }> = (args) => (
     {Object.entries(args.colors).map(([name, color]) => (
       <Wrapper key={name}>
         <Square color={color} />
-        <Name>{name}</Name>
+        <Name>
+          {name}
+          {'\n'}
+          {color}
+        </Name>
       </Wrapper>
     ))}
   </Container>

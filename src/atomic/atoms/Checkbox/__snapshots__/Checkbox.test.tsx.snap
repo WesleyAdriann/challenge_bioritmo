@@ -7,7 +7,7 @@ exports[`Atoms/Checkbox should render snapshot 1`] = `
   -ms-flex-align: center;
   align-items: center;
   background-color: #FFB612;
-  border: 3px solid #808080;
+  border: 3px solid #FFB612;
   border-radius: 2px;
   cursor: pointer;
   display: -webkit-box;
@@ -19,7 +19,6 @@ exports[`Atoms/Checkbox should render snapshot 1`] = `
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  padding: 1px;
   width: 24px;
 }
 

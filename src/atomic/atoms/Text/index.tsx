@@ -13,6 +13,7 @@ export interface IText {
   size?: number
   uppercase?: boolean
   weight?: types.TWeight
+  selectable?: boolean
 }
 
 export const Text: React.FC<IText> = ({
