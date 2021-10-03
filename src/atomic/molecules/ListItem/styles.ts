@@ -10,7 +10,7 @@ export const Container = styled.div<IContainer>`
       props.withBottomLine
         ? props.theme.colors['lightest-grey']
         : 'transparent'};
-  cursor: ${(props) => (props.isClickable ? 'cursor' : 'initial')};
+  cursor: ${(props) => (props.isClickable ? 'pointer' : 'initial')};
   margin-bottom: ${(props) => props.marginBottom ?? 0}px;
   padding: 8px 0;
 

@@ -14,16 +14,19 @@ export interface IText {
   uppercase?: boolean
   weight?: types.TWeight
   selectable?: boolean
+  newLine?: boolean
 }
 
 export const Text: React.FC<IText> = ({
   testID = 'Text',
   selectable = true,
+  newLine = true,
   children,
   ...props
 }) => (
   <Component
     selectable={selectable}
+    newLine={newLine}
     {...props}
     {...assignTestId('text', testID)}
   >

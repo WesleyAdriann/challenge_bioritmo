@@ -11,4 +11,5 @@ export const Component = styled.p<IComponent>`
   text-align: ${(props) => props.align ?? 'left'};
   text-transform: ${(props) => (props.uppercase ? 'uppercase' : 'none')};
   user-select: ${(props) => (props.selectable ? 'initial' : 'none')};
+  display: ${(props) => (props.newLine ? 'block' : 'inline')};
 `

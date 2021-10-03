@@ -11,9 +11,15 @@ const Template: Story<IHomeTemplate> = (args) => <HomeTemplate {...args} />
 
 export const Normal = Template.bind({})
 
-const argTypes = {}
+const argTypes = {
+  form: {
+    onSubmit: {
+      action: 'onSubmit'
+    }
+  }
+}
 
-const defaultArgs: IHomeTemplate = {}
+const defaultArgs: Omit<IHomeTemplate, 'form'> = {}
 
 Normal.args = { ...defaultArgs }
 Normal.argTypes = argTypes
