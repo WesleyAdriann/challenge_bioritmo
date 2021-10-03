@@ -31,7 +31,7 @@ const argTypes = {
   }
 }
 
-const defaultArgs = {
+const defaultArgs: ICard = {
   children: 'Card',
   color: theme.colors['lightest-grey'],
   shadow: false,

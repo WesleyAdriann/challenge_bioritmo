@@ -39,7 +39,7 @@ const argTypes = {
   }
 }
 
-const defaultArgs = {
+const defaultArgs: IText = {
   children: 'Texto',
   weight: '400' as types.TWeight,
   size: 14,

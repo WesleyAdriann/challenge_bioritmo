@@ -23,7 +23,7 @@ const argTypes = {
   }
 }
 
-const defaultArgs = {
+const defaultArgs: ICheckbox = {
   active: true,
   size: 24
 }

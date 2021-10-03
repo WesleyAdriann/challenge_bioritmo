@@ -13,7 +13,7 @@ export const Normal = Template.bind({})
 
 const argTypes = {}
 
-const defaultArgs = {}
+const defaultArgs: IHomeTemplate = {}
 
 Normal.args = { ...defaultArgs }
 Normal.argTypes = argTypes

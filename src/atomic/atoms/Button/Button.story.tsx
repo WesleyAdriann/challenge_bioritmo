@@ -29,7 +29,7 @@ const argTypes = {
   }
 }
 
-const defaultArgs = {
+const defaultArgs: Omit<IButton, 'onClick'> = {
   text: 'Texto',
   uppercase: false
 }
