@@ -12,4 +12,5 @@ export const Component = styled.p<IComponent>`
   text-transform: ${(props) => (props.uppercase ? 'uppercase' : 'none')};
   user-select: ${(props) => (props.selectable ? 'initial' : 'none')};
   display: ${(props) => (props.newLine ? 'block' : 'inline')};
+  line-height: ${(props) => props.lineHeight ?? 'normal'};
 `

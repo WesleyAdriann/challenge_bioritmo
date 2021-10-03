@@ -14,6 +14,7 @@ export interface IText {
   uppercase?: boolean
   weight?: types.TWeight
   selectable?: boolean
+  lineHeight?: number
   newLine?: boolean
 }
 
