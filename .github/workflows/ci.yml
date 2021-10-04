@@ -17,4 +17,4 @@ jobs:
           npm run lint
       - name: Tests 🤖
         run: |
-          npm tests
+          npm test
