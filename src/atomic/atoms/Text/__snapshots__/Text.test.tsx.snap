@@ -12,6 +12,7 @@ exports[`Atoms/Button should render snapshot 1`] = `
   -ms-user-select: initial;
   user-select: initial;
   display: block;
+  line-height: normal;
 }
 
 <p
