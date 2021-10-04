@@ -6,7 +6,7 @@ Challenge Bioritmo
   <img src="https://img.shields.io/github/languages/count/wesleyadriann/challenge_bioritmo" />
   <img src="https://img.shields.io/github/last-commit/wesleyadriann/challenge_bioritmo" />
   <img src="https://img.shields.io/github/license/wesleyadriann/challenge_bioritmo" />
-    <img src="https://img.shields.io/github/repo-size/wesleyadriann/challenge_bioritmo" />
+  <img src="https://img.shields.io/github/repo-size/wesleyadriann/challenge_bioritmo" />
 </p>
 
 
