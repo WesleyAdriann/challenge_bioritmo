@@ -18,6 +18,20 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
 .c6 {
   color: #000;
   font-weight: 400;
+  font-size: 22px;
+  text-align: left;
+  text-transform: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: block;
+  line-height: normal;
+}
+
+.c9 {
+  color: #000;
+  font-weight: 400;
   font-size: 14px;
   text-align: left;
   text-transform: none;
@@ -29,7 +43,7 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
   line-height: normal;
 }
 
-.c13 {
+.c14 {
   color: #000;
   font-weight: 400;
   font-size: 14px;
@@ -43,7 +57,7 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
   line-height: normal;
 }
 
-.c14 {
+.c15 {
   color: #000;
   font-weight: bold;
   font-size: 20px;
@@ -65,7 +79,7 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
   padding: 16px;
 }
 
-.c16 {
+.c17 {
   background-color: #FFB612;
   border-radius: 4px;
   border-color: #FFB612;
@@ -86,12 +100,12 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
   flex: 1;
 }
 
-.c16:active {
+.c17:active {
   -webkit-filter: brightness(95%);
   filter: brightness(95%);
 }
 
-.c17 {
+.c18 {
   background-color: #fff;
   border-radius: 4px;
   border-color: #808080;
@@ -112,7 +126,7 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
   flex: 1;
 }
 
-.c17:active {
+.c18:active {
   -webkit-filter: brightness(95%);
   filter: brightness(95%);
 }
@@ -144,7 +158,7 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
   filter: brightness(105%);
 }
 
-.c12 {
+.c13 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -165,7 +179,7 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
   width: 20px;
 }
 
-.c12:active {
+.c13:active {
   -webkit-filter: brightness(105%);
   filter: brightness(105%);
 }
@@ -205,7 +219,7 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
   filter: brightness(105%);
 }
 
-.c9 {
+.c10 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -220,12 +234,12 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
   padding: 8px 0;
 }
 
-.c9:active {
+.c10:active {
   -webkit-filter: brightness(105%);
   filter: brightness(105%);
 }
 
-.c11 {
+.c12 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -240,7 +254,7 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
   padding: 8px 0;
 }
 
-.c11:active {
+.c12:active {
   -webkit-filter: brightness(105%);
   filter: brightness(105%);
 }
@@ -279,7 +293,7 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
   width: 34px;
 }
 
-.c10 {
+.c11 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -290,7 +304,7 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
   gap: 16px;
 }
 
-.c15 {
+.c16 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -305,7 +319,7 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
 }
 
 @media (min-width:700px) {
-  .c10 {
+  .c11 {
     -webkit-align-items: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -321,7 +335,7 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
 }
 
 @media (min-width:700px) {
-  .c15 {
+  .c16 {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
@@ -359,6 +373,7 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
       <p
         class="c6"
         data-testid="text_ListItem_text"
+        size="22"
       >
         Qual período quer treinar?
       </p>
@@ -366,6 +381,7 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
     <p
       class="c6"
       data-testid="text_ListItem_right_text"
+      size="22"
     />
   </div>
   <div
@@ -381,14 +397,14 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
         size="20"
       />
       <p
-        class="c6"
+        class="c9"
         data-testid="text_ListItem_text"
       >
         Manhã
       </p>
     </div>
     <p
-      class="c6"
+      class="c9"
       data-testid="text_ListItem_right_text"
     >
       06:00 às 12:00
@@ -407,21 +423,21 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
         size="20"
       />
       <p
-        class="c6"
+        class="c9"
         data-testid="text_ListItem_text"
       >
         Tarde
       </p>
     </div>
     <p
-      class="c6"
+      class="c9"
       data-testid="text_ListItem_right_text"
     >
       12:01 às 18:00
     </p>
   </div>
   <div
-    class="c9 "
+    class="c10 "
     data-testid="div_ListItem"
   >
     <div
@@ -433,54 +449,54 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
         size="20"
       />
       <p
-        class="c6"
+        class="c9"
         data-testid="text_ListItem_text"
       >
         Noite
       </p>
     </div>
     <p
-      class="c6"
+      class="c9"
       data-testid="text_ListItem_right_text"
     >
       18:01 às 23:00
     </p>
   </div>
   <div
-    class="c10"
+    class="c11"
   >
     <div
-      class="c11"
+      class="c12"
       data-testid="div_ListItem"
     >
       <div
         class="c5"
       >
         <div
-          class="c12"
+          class="c13"
           data-testid="div_ListItem_checkbox"
           size="20"
         />
         <p
-          class="c6"
+          class="c9"
           data-testid="text_ListItem_text"
         >
           Exibir unidades fechadas
         </p>
       </div>
       <p
-        class="c6"
+        class="c9"
         data-testid="text_ListItem_right_text"
       />
     </div>
     <p
-      class="c13"
+      class="c14"
       data-testid="text_Text"
     >
       Resultados encontrados:
        
       <span
-        class="c14"
+        class="c15"
         data-testid="text_Text"
         size="20"
       >
@@ -489,16 +505,16 @@ exports[`Organisms/FormSelectHour should render snapshot 1`] = `
     </p>
   </div>
   <div
-    class="c15"
+    class="c16"
   >
     <div
-      class="c16"
+      class="c17"
       data-testid="button_Button"
     >
       Encontrar unidade
     </div>
     <div
-      class="c17"
+      class="c18"
       data-testid="button_Button"
     >
       Limpar

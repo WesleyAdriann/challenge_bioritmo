@@ -17,8 +17,8 @@ export interface IListItem {
   withCheckbox?: boolean
   checkboxProps?: Omit<ICheckbox, 'onClick' | 'active'>
   rightText?: string
-  textProps?: IText
-  rightTextProps?: IText
+  textProps?: Omit<IText, 'children'>
+  rightTextProps?: Omit<IText, 'children'>
   marginBottom?: number
   withBottomLine?: boolean
   onClick?: () => void

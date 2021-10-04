@@ -91,7 +91,11 @@ export const FormSelectHour: React.FC<IFormSelectHour> = ({
         <IconHour />
         <Text>Horário</Text>
       </HourTitleWrapper>
-      <ListItem text='Qual período quer treinar?' marginBottom={16} />
+      <ListItem
+        text='Qual período quer treinar?'
+        textProps={{ size: 22 }}
+        marginBottom={16}
+      />
       <Controller
         name='hour'
         control={control}

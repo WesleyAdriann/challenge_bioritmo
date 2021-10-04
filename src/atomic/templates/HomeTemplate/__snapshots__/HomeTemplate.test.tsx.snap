@@ -46,6 +46,20 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
 .c13 {
   color: #000;
   font-weight: 400;
+  font-size: 22px;
+  text-align: left;
+  text-transform: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  display: block;
+  line-height: normal;
+}
+
+.c16 {
+  color: #000;
+  font-weight: 400;
   font-size: 14px;
   text-align: left;
   text-transform: none;
@@ -57,7 +71,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   line-height: normal;
 }
 
-.c20 {
+.c21 {
   color: #000;
   font-weight: 400;
   font-size: 14px;
@@ -71,7 +85,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   line-height: normal;
 }
 
-.c21 {
+.c22 {
   color: #000;
   font-weight: bold;
   font-size: 20px;
@@ -85,7 +99,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   line-height: normal;
 }
 
-.c28 {
+.c29 {
   color: #000;
   font-weight: bold;
   font-size: 14px;
@@ -99,7 +113,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   line-height: normal;
 }
 
-.c34 {
+.c35 {
   color: #fff;
   font-weight: 400;
   font-size: 14px;
@@ -121,7 +135,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   padding: 16px;
 }
 
-.c25 {
+.c26 {
   background-color: #F3F3F3;
   border-radius: 0px;
   box-shadow: 0px;
@@ -129,7 +143,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   padding: 12px;
 }
 
-.c30 {
+.c31 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -143,12 +157,12 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   flex-direction: column;
 }
 
-.c31 {
+.c32 {
   height: 60px;
   margin-bottom: 8px;
 }
 
-.c23 {
+.c24 {
   background-color: #FFB612;
   border-radius: 4px;
   border-color: #FFB612;
@@ -169,12 +183,12 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   flex: 1;
 }
 
-.c23:active {
+.c24:active {
   -webkit-filter: brightness(95%);
   filter: brightness(95%);
 }
 
-.c24 {
+.c25 {
   background-color: #fff;
   border-radius: 4px;
   border-color: #808080;
@@ -195,7 +209,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   flex: 1;
 }
 
-.c24:active {
+.c25:active {
   -webkit-filter: brightness(95%);
   filter: brightness(95%);
 }
@@ -227,7 +241,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   filter: brightness(105%);
 }
 
-.c19 {
+.c20 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -248,7 +262,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   width: 20px;
 }
 
-.c19:active {
+.c20:active {
   -webkit-filter: brightness(105%);
   filter: brightness(105%);
 }
@@ -288,7 +302,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   filter: brightness(105%);
 }
 
-.c16 {
+.c17 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -303,12 +317,12 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   padding: 8px 0;
 }
 
-.c16:active {
+.c17:active {
   -webkit-filter: brightness(105%);
   filter: brightness(105%);
 }
 
-.c18 {
+.c19 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -323,7 +337,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   padding: 8px 0;
 }
 
-.c18:active {
+.c19:active {
   -webkit-filter: brightness(105%);
   filter: brightness(105%);
 }
@@ -362,7 +376,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   width: 34px;
 }
 
-.c17 {
+.c18 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -373,7 +387,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   gap: 16px;
 }
 
-.c22 {
+.c23 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -431,7 +445,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   width: 92px;
 }
 
-.c26 {
+.c27 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -454,7 +468,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   flex-wrap: wrap;
 }
 
-.c27 {
+.c28 {
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -468,7 +482,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   flex-direction: column;
 }
 
-.c29 {
+.c30 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -484,13 +498,13 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
   flex-wrap: wrap;
 }
 
-.c32 {
+.c33 {
   gap: 20px;
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.c33 {
+.c34 {
   background-color: #333333;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
@@ -499,7 +513,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
 }
 
 @media (min-width:700px) {
-  .c17 {
+  .c18 {
     -webkit-align-items: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -515,7 +529,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
 }
 
 @media (min-width:700px) {
-  .c22 {
+  .c23 {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
@@ -523,7 +537,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
 }
 
 @media (min-width:700px) {
-  .c26 {
+  .c27 {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
@@ -531,13 +545,13 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
 }
 
 @media (min-width:700px) {
-  .c32 {
+  .c33 {
     grid-template-columns: 1fr 1fr;
   }
 }
 
 @media (min-width:1100px) {
-  .c32 {
+  .c33 {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
@@ -633,6 +647,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
           <p
             class="c13"
             data-testid="text_ListItem_text"
+            size="22"
           >
             Qual período quer treinar?
           </p>
@@ -640,6 +655,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
         <p
           class="c13"
           data-testid="text_ListItem_right_text"
+          size="22"
         />
       </div>
       <div
@@ -655,14 +671,14 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
             size="20"
           />
           <p
-            class="c13"
+            class="c16"
             data-testid="text_ListItem_text"
           >
             Manhã
           </p>
         </div>
         <p
-          class="c13"
+          class="c16"
           data-testid="text_ListItem_right_text"
         >
           06:00 às 12:00
@@ -681,21 +697,21 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
             size="20"
           />
           <p
-            class="c13"
+            class="c16"
             data-testid="text_ListItem_text"
           >
             Tarde
           </p>
         </div>
         <p
-          class="c13"
+          class="c16"
           data-testid="text_ListItem_right_text"
         >
           12:01 às 18:00
         </p>
       </div>
       <div
-        class="c16 "
+        class="c17 "
         data-testid="div_ListItem"
       >
         <div
@@ -707,54 +723,54 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
             size="20"
           />
           <p
-            class="c13"
+            class="c16"
             data-testid="text_ListItem_text"
           >
             Noite
           </p>
         </div>
         <p
-          class="c13"
+          class="c16"
           data-testid="text_ListItem_right_text"
         >
           18:01 às 23:00
         </p>
       </div>
       <div
-        class="c17"
+        class="c18"
       >
         <div
-          class="c18"
+          class="c19"
           data-testid="div_ListItem"
         >
           <div
             class="c12"
           >
             <div
-              class="c19"
+              class="c20"
               data-testid="div_ListItem_checkbox"
               size="20"
             />
             <p
-              class="c13"
+              class="c16"
               data-testid="text_ListItem_text"
             >
               Exibir unidades fechadas
             </p>
           </div>
           <p
-            class="c13"
+            class="c16"
             data-testid="text_ListItem_right_text"
           />
         </div>
         <p
-          class="c20"
+          class="c21"
           data-testid="text_Text"
         >
           Resultados encontrados:
            
           <span
-            class="c21"
+            class="c22"
             data-testid="text_Text"
             size="20"
           >
@@ -763,16 +779,16 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
         </p>
       </div>
       <div
-        class="c22"
+        class="c23"
       >
         <div
-          class="c23"
+          class="c24"
           data-testid="button_Button"
         >
           Encontrar unidade
         </div>
         <div
-          class="c24"
+          class="c25"
           data-testid="button_Button"
         >
           Limpar
@@ -784,30 +800,30 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
     class="c2"
   >
     <div
-      class="c25"
+      class="c26"
       data-testid="div_Card"
     >
       <div
-        class="c26"
+        class="c27"
       >
         <div
-          class="c27"
+          class="c28"
         >
           <p
-            class="c28"
+            class="c29"
             data-testid="text_Text"
           >
             Máscara
           </p>
           <div
-            class="c29"
+            class="c30"
           >
             <div
-              class="c30"
+              class="c31"
               data-testid="div_ImageWithLegend"
             >
               <img
-                class="c31"
+                class="c32"
                 src="required-mask.png"
               />
               <p
@@ -818,11 +834,11 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
               </p>
             </div>
             <div
-              class="c30"
+              class="c31"
               data-testid="div_ImageWithLegend"
             >
               <img
-                class="c31"
+                class="c32"
                 src="recommended-mask.png"
               />
               <p
@@ -835,23 +851,23 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
           </div>
         </div>
         <div
-          class="c27"
+          class="c28"
         >
           <p
-            class="c28"
+            class="c29"
             data-testid="text_Text"
           >
             Toalha
           </p>
           <div
-            class="c29"
+            class="c30"
           >
             <div
-              class="c30"
+              class="c31"
               data-testid="div_ImageWithLegend"
             >
               <img
-                class="c31"
+                class="c32"
                 src="required-towel.png"
               />
               <p
@@ -862,11 +878,11 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
               </p>
             </div>
             <div
-              class="c30"
+              class="c31"
               data-testid="div_ImageWithLegend"
             >
               <img
-                class="c31"
+                class="c32"
                 src="recommended-towel.png"
               />
               <p
@@ -879,23 +895,23 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
           </div>
         </div>
         <div
-          class="c27"
+          class="c28"
         >
           <p
-            class="c28"
+            class="c29"
             data-testid="text_Text"
           >
             Bebedouro
           </p>
           <div
-            class="c29"
+            class="c30"
           >
             <div
-              class="c30"
+              class="c31"
               data-testid="div_ImageWithLegend"
             >
               <img
-                class="c31"
+                class="c32"
                 src="partial-fountain.png"
               />
               <p
@@ -906,11 +922,11 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
               </p>
             </div>
             <div
-              class="c30"
+              class="c31"
               data-testid="div_ImageWithLegend"
             >
               <img
-                class="c31"
+                class="c32"
                 src="forbidden-fountain.png"
               />
               <p
@@ -923,23 +939,23 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
           </div>
         </div>
         <div
-          class="c27"
+          class="c28"
         >
           <p
-            class="c28"
+            class="c29"
             data-testid="text_Text"
           >
             Vestiários
           </p>
           <div
-            class="c29"
+            class="c30"
           >
             <div
-              class="c30"
+              class="c31"
               data-testid="div_ImageWithLegend"
             >
               <img
-                class="c31"
+                class="c32"
                 src="required-lockerroom.png"
               />
               <p
@@ -950,11 +966,11 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
               </p>
             </div>
             <div
-              class="c30"
+              class="c31"
               data-testid="div_ImageWithLegend"
             >
               <img
-                class="c31"
+                class="c32"
                 src="partial-lockerroom.png"
               />
               <p
@@ -965,11 +981,11 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
               </p>
             </div>
             <div
-              class="c30"
+              class="c31"
               data-testid="div_ImageWithLegend"
             >
               <img
-                class="c31"
+                class="c32"
                 src="forbidden-lockerroom.png"
               />
               <p
@@ -985,10 +1001,10 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
     </div>
   </section>
   <section
-    class="c2 c32"
+    class="c2 c33"
   />
   <div
-    class="c1 c33"
+    class="c1 c34"
   >
     <svg
       height="4rem"
@@ -1016,7 +1032,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
       />
     </svg>
     <p
-      class="c34"
+      class="c35"
       color="#fff"
       data-testid="text_Text"
     >
