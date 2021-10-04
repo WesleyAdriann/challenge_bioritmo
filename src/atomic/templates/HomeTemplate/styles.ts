@@ -60,11 +60,17 @@ export const LegendItemsWrapper = styled.div`
 `
 
 export const SectionLocations = styled(Section)`
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
   gap: 20px;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr;
+
+  @media (min-width: 700px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  @media (min-width: 1100px) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 `
 
 export const LocationCard = styled(Card).attrs(() => ({
@@ -78,15 +84,6 @@ export const LocationCard = styled(Card).attrs(() => ({
   flex-direction: column;
   padding-bottom: 32px;
   gap: 8px;
-  width: 100%;
-
-  @media (min-width: 700px) {
-    width: 40%;
-  }
-
-  @media (min-width: 1100px) {
-    width: 30%;
-  }
 `
 
 export const Separator = styled.div`

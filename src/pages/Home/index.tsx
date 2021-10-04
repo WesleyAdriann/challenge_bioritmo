@@ -47,7 +47,6 @@ export const Home = () => {
           hourDate: gym.opened ? formatHour(shedule.hour) : ['']
         }))
       }))
-      console.log(gyms)
       dispatch(setLocations(gyms))
     } catch (error) {
       console.log('Error to get gyms', error)
@@ -70,7 +69,6 @@ export const Home = () => {
         }) ?? false
       return passInFilter
     })
-    console.log(gyms)
     dispatch(setFilteredLocations(gyms))
   }
 
