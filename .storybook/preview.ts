@@ -1,4 +1,4 @@
-import { StorybookProviders } from '../src/utils'
+import { providerDecorator } from '../src/utils'
 
 export const parameters = {
   actions: { argTypesRegex: "^on[A-Z].*" },
@@ -11,9 +11,5 @@ export const parameters = {
 }
 
 export const decorators = [
-  (Story) => (
-    <StorybookProviders>
-      <Story />
-    </StorybookProviders>
-  ),
+  providerDecorator
 ];
