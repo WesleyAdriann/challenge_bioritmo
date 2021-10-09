@@ -1,7 +1,5 @@
 import React from 'react'
 
-import { assignTestId } from '../../../utils'
-
 import { Text } from '../../atoms/Text'
 
 import { Container, Image } from './styles'
@@ -18,7 +16,7 @@ export const ImageWithLegend: React.FC<IImageWithLegend> = ({
   legend,
   ...props
 }) => (
-  <Container {...props} {...assignTestId('div', testID)}>
+  <Container {...props} testID={testID}>
     <Image src={image} />
     <Text>{legend}</Text>
   </Container>

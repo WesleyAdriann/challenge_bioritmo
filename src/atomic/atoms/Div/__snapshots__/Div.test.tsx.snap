@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Atoms/Div should render snapshot 1`] = `
+<div
+  class=""
+  data-testid="div_Div"
+/>
+`;

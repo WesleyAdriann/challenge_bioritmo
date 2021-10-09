@@ -10,5 +10,7 @@ export const assignTestId = (
       }
     : {}
 
-export const mockTestID = (componentType: componentType, componentId: string) =>
-  assignTestId(componentType, componentId)['data-testid']
+export const mockTestID = (
+  componentType: componentType,
+  componentId: string
+): string => assignTestId(componentType, componentId)['data-testid'] ?? ''

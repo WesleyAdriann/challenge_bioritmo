@@ -1,7 +1,5 @@
 import React from 'react'
 
-import { assignTestId } from '../../../utils'
-
 import { Text, IText } from '../../atoms/Text'
 import { Radio, IRadio } from '../../atoms/Radio'
 import { Checkbox, ICheckbox } from '../../atoms/Checkbox'
@@ -44,7 +42,7 @@ export const ListItem: React.FC<IListItem> = ({
     {...props}
     isClickable={!!onClick}
     withBottomLine={withBottomLine}
-    {...assignTestId('div', testID)}
+    testID={testID}
   >
     <TextWrapper>
       {withRadio && (

@@ -8,7 +8,6 @@ import { FormSelectHour, IFormSelectHour } from '../../organisms/FormSelectHour'
 
 import { ILocation } from '../../../store/slices/gymsLocations/types'
 
-import { assignTestId } from '../../../utils'
 import { Logo } from '../../../assets/Icon'
 import { images } from './images'
 
@@ -46,7 +45,7 @@ export const HomeTemplate: React.FC<IHomeTemplate> = ({
   const theme = useTheme()
 
   return (
-    <Container {...props} {...assignTestId('div', testID)}>
+    <Container {...props} testID={testID}>
       <Header>
         <Logo />
       </Header>

@@ -1,8 +1,10 @@
 import styled from 'styled-components'
 
+import { Div } from '../../atoms/Div'
+
 import { IContainer } from './types'
 
-export const Container = styled.div<IContainer>`
+export const Container = styled(Div)<IContainer>`
   align-items: center;
   display: flex;
   border-bottom: 1px solid
@@ -23,7 +25,7 @@ export const Container = styled.div<IContainer>`
       : ''}
 `
 
-export const TextWrapper = styled.div`
+export const TextWrapper = styled(Div)`
   align-items: center;
   display: flex;
   gap: 8px;

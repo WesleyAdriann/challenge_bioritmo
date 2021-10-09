@@ -47,11 +47,12 @@ exports[`Molecules/ListItem should render snapshot 1`] = `
 }
 
 <div
-  class="c0"
+  class=" c0"
   data-testid="div_ListItem"
 >
   <div
-    class="c1"
+    class=" c1"
+    data-testid="div_Div"
   >
     <p
       class="c2"

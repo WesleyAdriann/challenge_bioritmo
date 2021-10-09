@@ -557,11 +557,12 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
 }
 
 <div
-  class="c0"
+  class=" c0"
   data-testid="div_IHomeTemplate"
 >
   <div
-    class="c1"
+    class=" c1"
+    data-testid="div_Div"
   >
     <svg
       height="10rem"
@@ -603,7 +604,8 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
       Smart Fit
     </p>
     <div
-      class="c5"
+      class=" c5"
+      data-testid="div_Div"
     />
     <p
       class="c6"
@@ -623,7 +625,8 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
       radius="8"
     >
       <div
-        class="c8"
+        class=" c8"
+        data-testid="div_Div"
       >
         <img
           alt="clock"
@@ -638,11 +641,12 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
         </p>
       </div>
       <div
-        class="c11"
+        class=" c11"
         data-testid="div_ListItem"
       >
         <div
-          class="c12"
+          class=" c12"
+          data-testid="div_Div"
         >
           <p
             class="c13"
@@ -659,11 +663,12 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
         />
       </div>
       <div
-        class="c14 "
+        class=" c14 "
         data-testid="div_ListItem"
       >
         <div
-          class="c12"
+          class=" c12"
+          data-testid="div_Div"
         >
           <div
             class="c15"
@@ -685,11 +690,12 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
         </p>
       </div>
       <div
-        class="c14 "
+        class=" c14 "
         data-testid="div_ListItem"
       >
         <div
-          class="c12"
+          class=" c12"
+          data-testid="div_Div"
         >
           <div
             class="c15"
@@ -711,11 +717,12 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
         </p>
       </div>
       <div
-        class="c17 "
+        class=" c17 "
         data-testid="div_ListItem"
       >
         <div
-          class="c12"
+          class=" c12"
+          data-testid="div_Div"
         >
           <div
             class="c15"
@@ -737,14 +744,16 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
         </p>
       </div>
       <div
-        class="c18"
+        class=" c18"
+        data-testid="div_Div"
       >
         <div
-          class="c19"
+          class=" c19"
           data-testid="div_ListItem"
         >
           <div
-            class="c12"
+            class=" c12"
+            data-testid="div_Div"
           >
             <div
               class="c20"
@@ -779,7 +788,8 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
         </p>
       </div>
       <div
-        class="c23"
+        class=" c23"
+        data-testid="div_Div"
       >
         <div
           class="c24"
@@ -804,10 +814,12 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
       data-testid="div_Card"
     >
       <div
-        class="c27"
+        class=" c27"
+        data-testid="div_Div"
       >
         <div
-          class="c28"
+          class=" c28"
+          data-testid="div_Div"
         >
           <p
             class="c29"
@@ -816,10 +828,11 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
             Máscara
           </p>
           <div
-            class="c30"
+            class=" c30"
+            data-testid="div_Div"
           >
             <div
-              class="c31"
+              class=" c31"
               data-testid="div_ImageWithLegend"
             >
               <img
@@ -834,7 +847,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
               </p>
             </div>
             <div
-              class="c31"
+              class=" c31"
               data-testid="div_ImageWithLegend"
             >
               <img
@@ -851,7 +864,8 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
           </div>
         </div>
         <div
-          class="c28"
+          class=" c28"
+          data-testid="div_Div"
         >
           <p
             class="c29"
@@ -860,10 +874,11 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
             Toalha
           </p>
           <div
-            class="c30"
+            class=" c30"
+            data-testid="div_Div"
           >
             <div
-              class="c31"
+              class=" c31"
               data-testid="div_ImageWithLegend"
             >
               <img
@@ -878,7 +893,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
               </p>
             </div>
             <div
-              class="c31"
+              class=" c31"
               data-testid="div_ImageWithLegend"
             >
               <img
@@ -895,7 +910,8 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
           </div>
         </div>
         <div
-          class="c28"
+          class=" c28"
+          data-testid="div_Div"
         >
           <p
             class="c29"
@@ -904,10 +920,11 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
             Bebedouro
           </p>
           <div
-            class="c30"
+            class=" c30"
+            data-testid="div_Div"
           >
             <div
-              class="c31"
+              class=" c31"
               data-testid="div_ImageWithLegend"
             >
               <img
@@ -922,7 +939,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
               </p>
             </div>
             <div
-              class="c31"
+              class=" c31"
               data-testid="div_ImageWithLegend"
             >
               <img
@@ -939,7 +956,8 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
           </div>
         </div>
         <div
-          class="c28"
+          class=" c28"
+          data-testid="div_Div"
         >
           <p
             class="c29"
@@ -948,10 +966,11 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
             Vestiários
           </p>
           <div
-            class="c30"
+            class=" c30"
+            data-testid="div_Div"
           >
             <div
-              class="c31"
+              class=" c31"
               data-testid="div_ImageWithLegend"
             >
               <img
@@ -966,7 +985,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
               </p>
             </div>
             <div
-              class="c31"
+              class=" c31"
               data-testid="div_ImageWithLegend"
             >
               <img
@@ -981,7 +1000,7 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
               </p>
             </div>
             <div
-              class="c31"
+              class=" c31"
               data-testid="div_ImageWithLegend"
             >
               <img
@@ -1004,7 +1023,8 @@ exports[`Templates/HomeTemplate should render snapshot 1`] = `
     class="c2 c33"
   />
   <div
-    class="c1 c34"
+    class=" c1 c34"
+    data-testid="div_Div"
   >
     <svg
       height="4rem"

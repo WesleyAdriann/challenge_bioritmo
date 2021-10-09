@@ -35,7 +35,7 @@ exports[`Organisms/ImageWithLegend should render snapshot 1`] = `
 }
 
 <div
-  class="c0"
+  class=" c0"
   data-testid="div_ImageWithLegend"
 >
   <img

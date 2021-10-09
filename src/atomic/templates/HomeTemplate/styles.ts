@@ -1,12 +1,14 @@
 import styled from 'styled-components'
-import { Card } from '../../atoms/Card'
 
-export const Container = styled.div`
+import { Card } from '../../atoms/Card'
+import { Div } from '../../atoms/Div'
+
+export const Container = styled(Div)`
   display: flex;
   flex-direction: column;
 `
 
-export const Header = styled.div`
+export const Header = styled(Div)`
   align-items: center;
   background-color: ${(props) => props.theme.colors.black};
   display: flex;
@@ -24,14 +26,14 @@ export const SectionTitle = styled(Section)`
   margin: 16px auto;
 `
 
-export const TitleDivisor = styled.div`
+export const TitleDivisor = styled(Div)`
   background-color: ${(props) => props.theme.colors['dark-grey']};
   height: 12px;
   margin: 22px 0 38px;
   width: 92px;
 `
 
-export const LegendWrapper = styled.div`
+export const LegendWrapper = styled(Div)`
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -45,13 +47,13 @@ export const LegendWrapper = styled.div`
   }
 `
 
-export const Legend = styled.div`
+export const Legend = styled(Div)`
   align-items: center;
   display: flex;
   flex-direction: column;
 `
 
-export const LegendItemsWrapper = styled.div`
+export const LegendItemsWrapper = styled(Div)`
   display: flex;
   gap: 16px;
   margin-top: 12px;
@@ -86,7 +88,7 @@ export const LocationCard = styled(Card).attrs(() => ({
   gap: 8px;
 `
 
-export const Separator = styled.div`
+export const Separator = styled(Div)`
   background-color: ${(props) => props.theme.colors['light-grey']};
   height: 1px;
   margin: 8px 0;
@@ -94,7 +96,7 @@ export const Separator = styled.div`
   width: 100%;
 `
 
-export const LocationInfos = styled.div`
+export const LocationInfos = styled(Div)`
   align-items: center;
   display: flex;
   justify-content: center;
@@ -103,7 +105,7 @@ export const LocationInfos = styled.div`
   margin-bottom: 16px;
 `
 
-export const LocationsHours = styled.div`
+export const LocationsHours = styled(Div)`
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 16px;

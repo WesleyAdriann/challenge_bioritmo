@@ -1,6 +1,8 @@
 import styled from 'styled-components'
 
-export const Container = styled.div`
+import { Div } from '../../atoms/Div'
+
+export const Container = styled(Div)`
   align-items: center;
   display: flex;
   flex-direction: column;
